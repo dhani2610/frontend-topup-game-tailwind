@@ -1,4 +1,4 @@
-# Skilline Landing Page
+# MicroboyStore
 Free landing page template built on top of TailwindCSS
 
 > [LIVE DEMO](https://mhaecal.github.io/frontend/skilline)

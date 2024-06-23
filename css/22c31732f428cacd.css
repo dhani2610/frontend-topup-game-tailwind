@@ -1,0 +1,205 @@
+.auth-v2 .form-section {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v2 .form-section .logo-text {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v2 .form-section .forget-password-form a,
+.auth-v2 .form-section .login-form a,
+.auth-v2 .form-section .register-form a {
+  color: var(--tw-color-secondary-foreground);
+}
+.auth-v2 .form-section .forget-password-form h1,
+.auth-v2 .form-section .login-form h1,
+.auth-v2 .form-section .register-form h1,
+.auth-v2 .form-section .verify-otp-form h1 {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v3 .banner,
+.auth-v3 .form-section {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v3 .form-section .logo-text {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v3 .form-section .forget-password-form a,
+.auth-v3 .form-section .login-form a,
+.auth-v3 .form-section .register-form a {
+  color: var(--tw-color-secondary-foreground);
+}
+.auth-v3 .form-section .forget-password-form h1,
+.auth-v3 .form-section .login-form h1,
+.auth-v3 .form-section .register-form h1,
+.auth-v3 .form-section .verify-otp-form h1 {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v3 .banner-img {
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    2% 95%,
+    1% 85%,
+    2% 80%,
+    1% 78%,
+    2% 70%,
+    1% 66%,
+    2% 61%,
+    1% 54%,
+    3% 47%,
+    1% 43%,
+    3% 40%,
+    1% 34%,
+    2% 27%,
+    1% 21%,
+    2% 18%,
+    1% 10%,
+    2% 5%
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    2% 95%,
+    1% 85%,
+    2% 80%,
+    1% 78%,
+    2% 70%,
+    1% 66%,
+    2% 61%,
+    1% 54%,
+    3% 47%,
+    1% 43%,
+    3% 40%,
+    1% 34%,
+    2% 27%,
+    1% 21%,
+    2% 18%,
+    1% 10%,
+    2% 5%
+  );
+}
+.auth-v4 .form-section {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v4 .form-section .logo-text {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v4 .form-section .forget-password-form a,
+.auth-v4 .form-section .login-form a,
+.auth-v4 .form-section .register-form a {
+  color: var(--tw-color-secondary-foreground);
+}
+.auth-v4 .form-section .forget-password-form h1,
+.auth-v4 .form-section .login-form h1,
+.auth-v4 .form-section .register-form h1,
+.auth-v4 .form-section .verify-otp-form h1 {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v4 .banner-section {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v4 .banner-wrapper:before {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.auth-v4 .banner-inner:before {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v4 .banner {
+  filter: url(#roundedCorner);
+}
+.auth-v4 .banner:before {
+  content: "";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(
+    0 21%,
+    30% 21%,
+    30% 0,
+    100% 0,
+    100% 79%,
+    61% 79%,
+    61% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 21%,
+    30% 21%,
+    30% 0,
+    100% 0,
+    100% 79%,
+    61% 79%,
+    61% 100%,
+    0 100%
+  );
+}
+.auth-v4 .banner-inner,
+.auth-v4 .banner-wrapper {
+  filter: url(#roundedCorner);
+}
+.auth-v4 .banner-inner:before,
+.auth-v4 .banner-wrapper:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(
+    0 20%,
+    29% 20%,
+    29% 0,
+    100% 0,
+    100% 80%,
+    62% 80%,
+    62% 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 20%,
+    29% 20%,
+    29% 0,
+    100% 0,
+    100% 80%,
+    62% 80%,
+    62% 100%,
+    0 100%
+  );
+}
+.auth-v5 {
+  background-color: var(--tw-color-auth-background);
+}
+.auth-v5 .shadow-layer {
+  background-image: linear-gradient(
+    90deg,
+    #292929,
+    rgba(41, 41, 41, 0.7),
+    rgba(44, 44, 44, 0)
+  );
+}
+.auth-v5 .shadow-layer-mobile {
+  background-image: linear-gradient(
+    0deg,
+    #292929,
+    rgba(41, 41, 41, 0.5),
+    rgba(44, 44, 44, 0)
+  );
+}
+.auth-v5 .form-section .logo-text {
+  color: var(--tw-color-primary-foreground);
+}
+.auth-v5 .form-section .forget-password-form a,
+.auth-v5 .form-section .login-form a,
+.auth-v5 .form-section .register-form a {
+  color: var(--tw-color-secondary-foreground);
+}
+.auth-v5 .form-section .forget-password-form h1,
+.auth-v5 .form-section .login-form h1,
+.auth-v5 .form-section .register-form h1,
+.auth-v5 .form-section .verify-otp-form h1 {
+  color: var(--tw-color-primary-foreground);
+}

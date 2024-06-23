@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MicroboyStore</title>
+    <!-- Tailwind -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Alpine -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"
+      defer
+    ></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/skilline.css" />
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/css/splide.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/microboystore.css" />
+    <link rel="stylesheet" href="css/microboystore2.css" />
+    <link rel="stylesheet" href="css/microboystore3.css" />
+    <link rel="stylesheet" href="css/dbb2dd5056373547.css" />
+    <link rel="stylesheet" href="css/fb4ddcf0aedb9282.css" />
+    <link rel="stylesheet" href="css/1ba44c08c971ac32.css" />
+    <link rel="stylesheet" href="css/ab4aeb1c1949e481.css" />
+    <link rel="stylesheet" href="css/95aec922c31a72d1.css" />
+    <link rel="stylesheet" href="css/c47a6f4b17b010af.css" />
+  </head>
+  <body class="antialiased base-bg-second">
+    <!-- navbar -->
+
+    <header class="navbar bg-navbar-background text-navbar-foreground">
+        <div class="fixed top-0 z-50 w-full">
+          <div class="navbar-head bg-navbar-background backdrop-blur-xl">
+            <div
+              class="container flex h-12 w-full gap-x-3 md:h-14 md:gap-x-8 xl:gap-x-12"
+            >
+              <div class="relative flex shrink-0">
+                <div class="flex flex-shrink-0 items-center">
+                  <a
+                    class="flex max-w-[12rem] items-center py-2 h-full !max-w-[6rem] !py-[0.3rem] md:!max-w-[12rem] md:!py-2"
+                    href="/"
+                  >
+                    <img
+                      alt="logo"
+                      fetchpriority="high"
+                      width="0"
+                      height="0"
+                      decoding="async"
+                      data-nimg="1"
+                      class="aspect-auto h-full w-auto max-w-full object-contain"
+                      src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/4588 (1)-1cd3.png"
+                      style="color: transparent"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="flex h-full flex-1 items-center">
+                <div
+                  class="flex h-8 w-full items-center justify-end space-x-4 text-sm"
+                >
+                  <div class="relative hidden h-full w-full md:block">
+                    <div
+                      class="navbar-search relative ml-auto flex h-full items-center justify-end text-input-foreground w-12"
+                    >
+                      <input
+                        class="h-full rounded-full border-none bg-input-background px-3 py-1 text-input-foreground outline-none transition-[width] delay-100 md:px-4 md:py-1 w-12"
+                        placeholder=""
+                        type="text"
+                        value=""
+                        fdprocessedid="vdmdj5"
+                      />
+  
+                      <div
+                        class="absolute right-4 top-1/2 -translate-y-1/2 transform cursor-pointer"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-search h-4 w-4 text-input-foreground md:h-5 md:w-5"
+                          aria-hidden="true"
+                        >
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <path d="m21 21-4.3-4.3"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-search text-2xl md:hidden"
+                    aria-hidden="true"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path>
+                  </svg>
+                  <button class="lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-bar-chart2 -rotate-90 text-2xl"
+                    >
+                      <line x1="18" x2="18" y1="20" y2="10"></line>
+                      <line x1="12" x2="12" y1="20" y2="4"></line>
+                      <line x1="6" x2="6" y1="20" y2="14"></line>
+                    </svg>
+                  </button>
+                  <div
+                    data-orientation="vertical"
+                    role="none"
+                    class="shrink-0 bg-primary-foreground h-full w-[1px] hidden xl:block"
+                  ></div>
+                  <div class="hidden lg:block">
+                    <a href="/auth/login">
+                      <div class="flex items-center gap-x-3">
+                        <div
+                          class="flex h-full w-10 items-center justify-center rounded-xl bg-primary py-1"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-log-in text-2xl text-primary-foreground"
+                          >
+                            <path
+                              d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+                            ></path>
+                            <polyline points="10 17 15 12 10 7"></polyline>
+                            <line x1="15" x2="3" y1="12" y2="12"></line>
+                          </svg>
+                        </div>
+                        <span class="text-sm">Masuk/Daftar</span>
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="container overflow-hidden transition-all duration-300 ease-in-out md:hidden h-0"
+            >
+              <div class="h-full">
+                <input
+                  class="h-full w-full rounded-full border-none bg-input-background px-3 py-1 text-input-foreground outline-none"
+                  placeholder="Cari ..."
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="navbar-menus lg:border-t lg:border-[#e5e7eb] lg:py-2 mt-12 md:mt-14"
+        >
+          <div class="container">
+            <nav
+              class="hidden w-full overflow-auto lg:flex lg:space-x-6 lg:py-2 xl:space-x-8"
+            >
+              <a href="index.html"
+                ><div class="flex w-max items-center gap-x-2 text-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-home"
+                  >
+                    <path
+                      d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                    ></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline></svg
+                  >Beranda
+                </div></a
+              ><a href="products.html"
+                ><div class="flex w-max items-center gap-x-2 text-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-gamepad2"
+                  >
+                    <line x1="6" x2="10" y1="11" y2="11"></line>
+                    <line x1="8" x2="8" y1="9" y2="13"></line>
+                    <line x1="15" x2="15.01" y1="12" y2="12"></line>
+                    <line x1="18" x2="18.01" y1="10" y2="10"></line>
+                    <path
+                      d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
+                    ></path></svg
+                  >Semua Game
+                </div></a
+              ><a href="track-order.html"
+                ><div class="flex w-max items-center gap-x-2 text-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-search"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.3-4.3"></path></svg
+                  >Lacak Pesanan
+                </div></a
+              ><a href="pricelist.html"
+                ><div class="flex w-max items-center gap-x-2 text-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-receipt"
+                  >
+                    <path
+                      d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1Z"
+                    ></path>
+                    <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                    <path d="M12 17V7"></path></svg
+                  >Pricelist
+                </div></a
+              ><a href="review.html"
+                ><div class="flex w-max items-center gap-x-2 text-sm">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-scroll-text"
+                  >
+                    <path
+                      d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"
+                    ></path>
+                    <path d="M19 17V5a2 2 0 0 0-2-2H4"></path>
+                    <path d="M15 8h-5"></path>
+                    <path d="M15 12h-5"></path></svg
+                  >Ulasan
+                </div></a
+              >
+            </nav>
+          </div>
+        </div>
+        <div
+          class="side-navbar fixed inset-0 z-[100] transition-all duration-300 ease-in-out lg:hidden hidden"
+        >
+          <div class="absolute inset-0 bg-black/40"></div>
+          <div
+            class="content absolute inset-y-0 right-0 flex w-3/5 bg-navbar-background text-navbar-foreground backdrop-blur transition-all duration-300 ease-in-out md:w-2/5 translate-x-full"
+          >
+            <div
+              class="flex w-full flex-col justify-between overflow-y-auto px-4 py-6"
+            >
+              <div class="flex flex-col justify-between">
+                <a
+                  class="flex h-auto max-w-[12rem] items-center py-2 !max-w-[4rem]"
+                  href="/"
+                  ><img
+                    alt="logo"
+                    fetchpriority="high"
+                    width="0"
+                    height="0"
+                    decoding="async"
+                    data-nimg="1"
+                    class="aspect-auto h-full w-auto max-w-full object-contain"
+                    src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png"
+                    style="color: transparent"
+                /></a>
+                <div class="mt-8 flex flex-col gap-y-5">
+                  <a href="index.html"
+                    ><div class="flex w-max items-center gap-x-2 text-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-home"
+                      >
+                        <path
+                          d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                        ></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline></svg
+                      >Beranda
+                    </div></a
+                  ><a href="products.html"
+                    ><div class="flex w-max items-center gap-x-2 text-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-gamepad2"
+                      >
+                        <line x1="6" x2="10" y1="11" y2="11"></line>
+                        <line x1="8" x2="8" y1="9" y2="13"></line>
+                        <line x1="15" x2="15.01" y1="12" y2="12"></line>
+                        <line x1="18" x2="18.01" y1="10" y2="10"></line>
+                        <path
+                          d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"
+                        ></path></svg
+                      >Semua Game
+                    </div></a
+                  ><a href="track-order.html"
+                    ><div class="flex w-max items-center gap-x-2 text-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-search"
+                      >
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path></svg
+                      >Lacak Pesanan
+                    </div></a
+                  ><a href="pricelist.html"
+                    ><div class="flex w-max items-center gap-x-2 text-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-receipt"
+                      >
+                        <path
+                          d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1-2-1Z"
+                        ></path>
+                        <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                        <path d="M12 17V7"></path></svg
+                      >Pricelist
+                    </div></a
+                  ><a href="review.html"
+                    ><div class="flex w-max items-center gap-x-2 text-sm">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-scroll-text"
+                      >
+                        <path
+                          d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"
+                        ></path>
+                        <path d="M19 17V5a2 2 0 0 0-2-2H4"></path>
+                        <path d="M15 8h-5"></path>
+                        <path d="M15 12h-5"></path></svg
+                      >Ulasan
+                    </div></a
+                  >
+                </div>
+              </div>
+              <div>
+                <div
+                  data-orientation="horizontal"
+                  role="none"
+                  class="shrink-0 bg-primary-foreground h-[1px] w-full my-5"
+                ></div>
+                <div class="flex flex-col gap-y-8">
+                  <div class="flex items-center gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-sun text-2xl"
+                    >
+                      <circle cx="12" cy="12" r="4"></circle>
+                      <path d="M12 2v2"></path>
+                      <path d="M12 20v2"></path>
+                      <path d="m4.93 4.93 1.41 1.41"></path>
+                      <path d="m17.66 17.66 1.41 1.41"></path>
+                      <path d="M2 12h2"></path>
+                      <path d="M20 12h2"></path>
+                      <path d="m6.34 17.66-1.41 1.41"></path>
+                      <path d="m19.07 4.93-1.41 1.41"></path></svg
+                    ><button
+                      class="relative h-[26px] w-11 cursor-pointer rounded-full bg-primary"
+                    >
+                      <div
+                        class="absolute inset-y-0 my-auto h-5 w-5 rounded-full bg-primary-foreground transition-all duration-300 ease-in-out left-1"
+                      ></div>
+                    </button>
+                  </div>
+                  <a href="login.html"
+                    ><div class="flex items-center gap-x-3">
+                      <div
+                        class="flex h-full w-10 items-center justify-center rounded-xl bg-primary py-1"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-log-in text-2xl text-primary-foreground"
+                        >
+                          <path
+                            d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+                          ></path>
+                          <polyline points="10 17 15 12 10 7"></polyline>
+                          <line x1="15" x2="3" y1="12" y2="12"></line>
+                        </svg>
+                      </div>
+                      <span class="text-sm">Masuk/Daftar</span>
+                    </div></a
+                  >
+                  <p
+                    class="mt-64 text-center text-primary-foreground md:hidden !mt-0 text-xs !text-navbar-foreground"
+                  >
+                    © 2021 Microboy Store. All rights reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <div class="relative flex-1">
+      <div class="pricelist">
+        <div class="pricelist-v3 page-content">
+          <div class="container">
+            <div
+              class="card-outline relative z-0 mb-6 flex aspect-[4/1] items-center overflow-hidden rounded-xl px-4 md:mb-12 md:px-10"
+            >
+              <div
+                class="absolute z-10 flex flex-1 shrink-0 items-center gap-x-4 xl:gap-x-8"
+              >
+                <div
+                  class="flex h-12 w-12 items-center justify-center rounded-2xl bg-softGray20 md:h-16 md:w-16 xl:h-28 xl:w-28 xl:rounded-3xl"
+                >
+                  <div class="relative aspect-square w-8 xl:w-[60px]">
+                    <img
+                      alt="pageTitle.pricelist"
+                      loading="lazy"
+                      decoding="async"
+                      data-nimg="fill"
+                      class="object-contain object-center"
+                      src="img/pricetag.png"
+                      style="
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        inset: 0px;
+                        color: transparent;
+                      "
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="mb-1 w-fit rounded-lg bg-secondary px-2 py-1 text-[8px] font-bold text-primary-foreground md:mb-2 md:text-xs lg:text-sm xl:mb-5"
+                  >
+                    microboystore.com
+                  </div>
+                  <h1
+                    class="text-xl font-semibold text-primary-foreground md:text-2xl lg:text-3xl xl:text-5xl"
+                  >
+                    Pricelist
+                  </h1>
+                </div>
+              </div>
+              <img
+                alt="pageTitle.pricelist"
+                fetchpriority="high"
+                decoding="async"
+                data-nimg="fill"
+                class="object-cover object-center duration-700 ease-in-out scale-100 blur-0"
+                src="img/trackorder-banner.png"
+                style="
+                  position: absolute;
+                  height: 100%;
+                  width: 100%;
+                  inset: 0px;
+                  color: transparent;
+                "
+              />
+            </div>
+            <div class="price-list">
+              <div
+                dir="ltr"
+                data-orientation="horizontal"
+                class="flex flex-col gap-y-4 md:flex-row md:gap-x-5 md:gap-y-0"
+              >
+                <div
+                  class="flex h-fit shrink-0 flex-col items-center gap-y-2 rounded-xl bg-secondary p-3 md:max-h-fit md:w-64 md:items-start lg:p-5"
+                >
+                  <form class="input-search w-full">
+                    <div
+                      class="relative flex h-10 items-center overflow-hidden rounded-lg mb-3"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-search absolute inset-y-0 left-3 my-auto text-lg text-input-foreground"
+                      >
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path></svg
+                      ><input
+                        placeholder="Ketik nama game"
+                        class="h-full flex-1 bg-input-background pl-12 pr-4 text-xs text-input-foreground focus:outline-none md:text-sm"
+                        type="text"
+                        value=""
+                        fdprocessedid="uqdogr"
+                      />
+                    </div>
+                  </form>
+                  <div
+                    role="tablist"
+                    aria-orientation="horizontal"
+                    class="max-h-[400px] w-full overflow-y-auto md:max-h-[600px]"
+                    tabindex="0"
+                    data-orientation="horizontal"
+                    style="outline: none"
+                  >
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected="true"
+                      aria-controls="radix-:rc:-content-Arena Breakout"
+                      data-state="active"
+                      id="radix-:rc:-trigger-Arena Breakout"
+                      class="tabs-trigger w-full"
+                      tabindex="0"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                      fdprocessedid="kw5k9"
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Arena Breakout"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(25)-410a8-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Arena Breakout
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Level Infinite
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Black Clover M"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Black Clover M"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Black Clover M"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/BLACK_CLOVER_M-291a-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Black Clover M
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Garena
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Call Of Duty Mobile ID"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Call Of Duty Mobile ID"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Call Of Duty Mobile ID"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(20)-min-99c0-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Call Of Duty Mobile ID
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Bind Garena
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Clash of Clans"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Clash of Clans"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Clash of Clans"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(23)-min-55b5-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Clash of Clans
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              SUPERCELL
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-EA SPORTS FC Mobile"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-EA SPORTS FC Mobile"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="EA SPORTS FC Mobile"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/fc_mobile-479c-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              EA SPORTS FC Mobile
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              EA SPORTS
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Free Fire"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Free Fire"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Free Fire"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(14)-min-89b6-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Free Fire
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Garena
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Free Fire MAX"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Free Fire MAX"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Free Fire MAX"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(19)-min-d8ef-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Free Fire MAX
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Garena
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Genshin Impact"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Genshin Impact"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Genshin Impact"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(22)-min-568b-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Genshin Impact
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              HoYoverse
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Honkai: Star Rail"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Honkai: Star Rail"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Honkai: Star Rail"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/honkai_starrail-aa85-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Honkai: Star Rail
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Hoyoverse
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Honor of Kings"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Honor of Kings"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Honor of Kings"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(24)-0c42-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Honor of Kings
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              TiMi Studio
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Joki ML"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Joki ML"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Joki ML"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(12)-min-9852-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Joki ML
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Auto Win
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-LifeAfter"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-LifeAfter"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="LifeAfter"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/lifeafter-55e4-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              LifeAfter
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              NetEase
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Metal Slug: Awakening"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Metal Slug: Awakening"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Metal Slug: Awakening"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/metal_slug-610ea-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Metal Slug: Awakening
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              VNG
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Mobile Legends"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Mobile Legends"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Mobile Legends"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(13)-min-39d4-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Mobile Legends
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Moonton
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Pubg Indo "
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Pubg Indo "
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Pubg Indo "
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(16)-min-4c10c-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Pubg Indo
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Lokasi Indonesia
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Pubg Luar"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Pubg Luar"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Pubg Luar"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(18)-min-95ba-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Pubg Luar
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Lokasi Luar Negri
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Ragnarok X: Next Generation"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Ragnarok X: Next Generation"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Ragnarok X: Next Generation"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/ragnarok x-0e61-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Ragnarok X: Next Generation
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Nuverse
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Tower Fantasy (SEA)"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Tower Fantasy (SEA)"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Tower Fantasy (SEA)"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/tower_of_fantasy-cf6d-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Tower Fantasy (SEA)
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Hotta Studio
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Undawn"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Undawn"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Undawn"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/BisnisVocagame/undawn-10c910-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Undawn
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Garena
+                            </p>
+                          </div>
+                        </div>
+                      </div></button
+                    ><button
+                      type="button"
+                      role="tab"
+                      aria-selected="false"
+                      aria-controls="radix-:rc:-content-Valorant"
+                      data-state="inactive"
+                      id="radix-:rc:-trigger-Valorant"
+                      class="tabs-trigger w-full"
+                      tabindex="-1"
+                      data-orientation="horizontal"
+                      data-radix-collection-item=""
+                    >
+                      <div class="relative">
+                        <div
+                          class="product-info-item flex w-full gap-x-3 rounded-lg text-left text-sm text-primary-foreground outline-none px-3 py-2 md:py-3"
+                        >
+                          <div
+                            class="relative h-14 w-14 shrink-0 overflow-hidden rounded-md lg:h-[70px] lg:w-[70px]"
+                          >
+                            <img
+                              alt="Valorant"
+                              loading="lazy"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="object-cover object-center"
+                              src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/JOKI%20RANKED%20(21)-min-bfd4-original.webp"
+                              style="
+                                position: absolute;
+                                height: 100%;
+                                width: 100%;
+                                inset: 0px;
+                                color: transparent;
+                              "
+                            />
+                          </div>
+                          <div>
+                            <h3 class="mb-1 line-clamp-2 font-bold text-sm">
+                              Valorant
+                            </h3>
+                            <p
+                              class="line-clamp-1 font-light text-invoice-foreground text-xs"
+                            >
+                              Riot Games
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  data-state="active"
+                  data-orientation="horizontal"
+                  role="tabpanel"
+                  aria-labelledby="radix-:rc:-trigger-Arena Breakout"
+                  id="radix-:rc:-content-Arena Breakout"
+                  tabindex="0"
+                  class="max-w-full flex-1 overflow-hidden"
+                  style="animation-duration: 0s"
+                >
+                  <div>
+                    <div
+                      class="custom-scrollbar overflow-x-auto rounded-xl bg-secondary"
+                    >
+                      <table class="w-full text-primary-foreground">
+                        <thead class="bg-general text-sm">
+                          <tr>
+                            <th scope="col">Nama Produk</th>
+                            <th scope="col">HARGA PUBLIK</th>
+                            <th scope="col">HARGA Silver</th>
+                            <th scope="col">HARGA Gold</th>
+                            <th scope="col">HARGA Platinum</th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-sm">
+                          <tr>
+                            <td>60 + 6 Bonds</td>
+                            <td>Rp&nbsp;15.800,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="lf07os"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>310 + 25 Bonds</td>
+                            <td>Rp&nbsp;74.700,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="1klbd"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>630 + 45 Bonds</td>
+                            <td>Rp&nbsp;149.400,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="8xhnl5"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>1580 + 110 Bonds</td>
+                            <td>Rp&nbsp;373.400,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="fw7kqk"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>6500 + 320 Bonds</td>
+                            <td>Rp&nbsp;1.492.700,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="zx0th"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>3200 + 200 Bonds</td>
+                            <td>Rp&nbsp;746.800,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="x1d55f"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Pilihan Pemula</td>
+                            <td>Rp&nbsp;15.300,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="it4jj2"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Battle Pass Lanjutan</td>
+                            <td>Rp&nbsp;74.700,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="koj1ue"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Battle Pass Premium</td>
+                            <td>Rp&nbsp;224.000,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="c3dmrh"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Kotak Anti Peluru</td>
+                            <td>Rp&nbsp;45.000,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="wrshd"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Kotak Komposit (30 hari)</td>
+                            <td>Rp&nbsp;134.050,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="c3d7j"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Percobaan Elit (30 hari) + 300 Bonds</td>
+                            <td>Rp&nbsp;74.700,-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                              <button
+                                class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-x-3 text-button-foreground bg-button h-10 px-4 py-2 ml-auto !h-10 !w-[75px] !rounded-lg !font-bold"
+                                type="button"
+                                fdprocessedid="0r2i7i"
+                              >
+                                Beli
+                              </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer bg-footer-background text-footer-foreground">
+      <div class="container py-12 lg:py-20">
+        <div
+          class="mb-10 grid grid-cols-4 space-y-8 lg:mb-20 lg:grid-cols-12 lg:space-y-0"
+        >
+          <!-- Logo Section -->
+          <div class="col-span-4 space-y-3 pr-16">
+            <a class="flex h-auto max-w-[12rem] items-center py-2" href="/">
+              <img
+                alt="logo"
+                fetchpriority="high"
+                width="0"
+                height="0"
+                decoding="async"
+                data-nimg="1"
+                class="aspect-auto h-full w-auto max-w-full object-contain"
+                src="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/4588 (1)-1cd3.png"
+                style="color: transparent"
+              />
+            </a>
+          </div>
+
+          <!-- Sitemap Section -->
+          <div class="col-span-2">
+            <div class="mb-2 md:mb-4">
+              <h3 class="mb-2 font-bold uppercase md:mb-4">PETA SITUS</h3>
+              <div class="mt-1 h-1 w-1/4 rounded-full bg-general"></div>
+            </div>
+            <div class="flex flex-col space-y-3 font-light">
+              <div class="w-fit cursor-pointer">Beranda</div>
+              <a class="w-fit" href="/products">Semua Game</a>
+              <a class="w-fit" href="/auth/login">Masuk</a>
+              <a class="w-fit" href="/auth/register">Daftar</a>
+            </div>
+          </div>
+
+          <!-- Contact Us Section -->
+          <div class="contact col-span-2">
+            <div class="mb-2 md:mb-4">
+              <h3 class="mb-2 font-bold uppercase md:mb-4">KONTAK KAMI</h3>
+              <div class="mt-1 h-1 w-1/4 rounded-full bg-general"></div>
+            </div>
+            <div class="flex flex-col space-y-3 font-light">
+              <a
+                target="_blank"
+                class="flex w-fit items-center gap-x-2 capitalize"
+                href="https://api.whatsapp.com/send/?phone=6281228576297&amp;text&amp;type=phone_number&amp;app_absent=0"
+              >
+                <div class="text-lg">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                    ></path>
+                  </svg>
+                </div>
+                Customer Service
+              </a>
+            </div>
+          </div>
+
+          <!-- Follow Us Section -->
+          <div class="col-span-4 space-y-8 lg:space-y-5">
+            <div class="follow-us">
+              <div class="mb-2 md:mb-4">
+                <h3 class="mb-2 font-bold uppercase md:mb-4">IKUTI KAMI</h3>
+                <div class="mt-1 h-1 w-1/4 rounded-full bg-general"></div>
+              </div>
+              <div class="flex flex-row space-x-3 font-light">
+                <a
+                  target="_blank"
+                  class="social-item flex h-11 w-11 items-center justify-center rounded-full bg-followus-background text-xl text-followus-foreground"
+                  href="https://www.instagram.com/warung.microboy"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-6.1 15.4-17.9 27.2-33.3 33.3-23.1 9.2-77.8 7.1-103.5 7.9-27.8.8-111.2.8-139 0-23.1-.8-77.8-2.3-103.5-7.9-15.4-6.1-27.2-17.9-33.3-33.3-9.2-23.1-7.1-77.8-7.9-103.5-.8-27.8-.8-111.2 0-139 1.7-23.1 2.3-77.8 7.9-103.5 6.1-15.4 17.9-27.2 33.3-33.3 23.1-9.2 77.8-7.1 103.5-7.9 27.8-.8 111.2-.8 139 0 23.1.8 77.8 2.3 103.5 7.9 15.4 6.1 27.2 17.9 33.3 33.3 9.2 23.1 7.1 77.8 7.9 103.5.8 27.8.8 111.2 0 139-.9 25.7-2.5 80.4-7.9 103.5z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  target="_blank"
+                  class="social-item flex h-11 w-11 items-center justify-center rounded-full bg-followus-background text-xl text-followus-foreground"
+                  href="https://www.youtube.com/@warungmicroboy/"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 576 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M549.655 124.083C524.08 97.86 483.872 96 419.1 96H156.9c-64.742 0-104.979 1.86-130.555 28.083-22.128 23.344-25.415 56.945-26.238 114.248-.839 59.01-.839 144.349 0 203.358.823 57.303 4.11 90.904 26.238 114.248C51.921 478.14 92.158 480 156.9 480h262.2c64.772 0 104.98-1.86 130.555-28.083 22.128-23.344 25.415-56.945 26.238-114.248.839-59.01.839-144.349 0-203.358-.823-57.303-4.11-90.904-26.238-114.248zM231.447 338.553v-165.11l142.842 82.555-142.842 82.555z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  target="_blank"
+                  class="social-item flex h-11 w-11 items-center justify-center rounded-full bg-followus-background text-xl text-followus-foreground"
+                  href="https://www.tiktok.com/@warungmicroboy"
+                >
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M448,209.8c-16.4,7.3-34,12.1-52.4,14.2c18.8-11.3,33.2-29.2,40-50.5c-17.6,10.5-37,18.1-57.6,22.2 c-16.6-17.7-40.1-28.7-66.2-28.7c-50.1,0-90.7,40.7-90.7,90.8c0,7.1,0.8,14,2.3,20.6c-75.4-3.8-142.4-39.9-187.2-94.7 c-7.8,13.3-12.3,28.8-12.3,45.3c0,31.3,15.9,58.9,40.1,75c-14.7-0.5-28.6-4.5-40.8-11.2c0,0.4,0,0.9,0,1.4 c0,43.7,31.1,80.1,72.3,88.4c-7.6,2.1-15.6,3.2-23.9,3.2c-5.8,0-11.5-0.6-17-1.7c11.6,36,45.1,62.2,84.9,62.9 c-31.1,24.4-70.4,39-113.1,39c-7.3,0-14.6-0.4-21.7-1.3c40.3,25.8,88.1,40.8,139.6,40.8c167.5,0,259.2-138.8,259.2-259.1 c0-3.9-0.1-7.7-0.3-11.5C419,245.9,435.5,229,448,209.8z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hidden lg:block">
+          <div class="flex items-center gap-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-sun text-2xl"
+            >
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path></svg
+            ><button
+              class="relative h-[26px] w-11 cursor-pointer rounded-full bg-primary"
+              fdprocessedid="eavnd7"
+            >
+              <div
+                class="absolute inset-y-0 my-auto h-5 w-5 rounded-full bg-primary-foreground transition-all duration-300 ease-in-out left-1"
+              ></div>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="mt-4 hidden h-1 border-b border-solid border-alternativeGray10 md:block"
+        ></div>
+
+        <div class="mt-4 flex items-center text-sm md:justify-center">
+          <p
+            class="mt-64 text-center text-primary-foreground md:hidden !mt-0 text-inherit md:!inline-block"
+          >
+            © 2021 Microboy Store. All rights reserved
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- AOS init -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <script>
+      !(function () {
+        try {
+          var d = document.documentElement,
+            c = d.classList;
+          c.remove("light", "dark");
+          var e = localStorage.getItem("theme");
+          if (e) {
+            c.add(e || "");
+          } else {
+            c.add("light");
+          }
+        } catch (t) {}
+      })();
+    </script>
+    <script>
+      AOS.init();
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#splide", {
+          type: "loop",
+          perPage: 1,
+          focus: "center",
+          autoplay: true,
+          interval: 8000,
+          flickMaxPages: 1,
+          updateOnMove: true,
+          pagination: false,
+          padding: "10%",
+          throttle: 300,
+          breakpoints: {
+            1440: {
+              perPage: 1,
+              padding: "30%",
+            },
+          },
+        }).mount();
+      });
+      // Create Countdown
+      var Countdown = {
+        // Backbone-like structure
+        $el: $(".countdown"),
+
+        // Params
+        countdown_interval: null,
+        total_seconds: 0,
+
+        // Initialize the countdown
+        init: function () {
+          // DOM
+          this.$ = {
+            hours: this.$el.find(".bloc-time.hours .figure"),
+            minutes: this.$el.find(".bloc-time.min .figure"),
+            seconds: this.$el.find(".bloc-time.sec .figure"),
+          };
+
+          // Init countdown values
+          this.values = {
+            hours: this.$.hours.parent().attr("data-init-value"),
+            minutes: this.$.minutes.parent().attr("data-init-value"),
+            seconds: this.$.seconds.parent().attr("data-init-value"),
+          };
+
+          // Initialize total seconds
+          this.total_seconds =
+            this.values.hours * 60 * 60 +
+            this.values.minutes * 60 +
+            this.values.seconds;
+
+          // Animate countdown to the end
+          this.count();
+        },
+
+        count: function () {
+          var that = this,
+            $hour_1 = this.$.hours.eq(0),
+            $hour_2 = this.$.hours.eq(1),
+            $min_1 = this.$.minutes.eq(0),
+            $min_2 = this.$.minutes.eq(1),
+            $sec_1 = this.$.seconds.eq(0),
+            $sec_2 = this.$.seconds.eq(1);
+
+          this.countdown_interval = setInterval(function () {
+            if (that.total_seconds > 0) {
+              --that.values.seconds;
+
+              if (that.values.minutes >= 0 && that.values.seconds < 0) {
+                that.values.seconds = 59;
+                --that.values.minutes;
+              }
+
+              if (that.values.hours >= 0 && that.values.minutes < 0) {
+                that.values.minutes = 59;
+                --that.values.hours;
+              }
+
+              // Update DOM values
+              // Hours
+              that.checkHour(that.values.hours, $hour_1, $hour_2);
+
+              // Minutes
+              that.checkHour(that.values.minutes, $min_1, $min_2);
+
+              // Seconds
+              that.checkHour(that.values.seconds, $sec_1, $sec_2);
+
+              --that.total_seconds;
+            } else {
+              clearInterval(that.countdown_interval);
+            }
+          }, 1000);
+        },
+
+        animateFigure: function ($el, value) {
+          var that = this,
+            $top = $el.find(".top"),
+            $bottom = $el.find(".bottom"),
+            $back_top = $el.find(".top-back"),
+            $back_bottom = $el.find(".bottom-back");
+
+          // Before we begin, change the back value
+          $back_top.find("span").html(value);
+
+          // Also change the back bottom value
+          $back_bottom.find("span").html(value);
+
+          // Then animate
+          TweenMax.to($top, 0.8, {
+            rotationX: "-180deg",
+            transformPerspective: 300,
+            ease: Quart.easeOut,
+            onComplete: function () {
+              $top.html(value);
+
+              $bottom.html(value);
+
+              TweenMax.set($top, { rotationX: 0 });
+            },
+          });
+
+          TweenMax.to($back_top, 0.8, {
+            rotationX: 0,
+            transformPerspective: 300,
+            ease: Quart.easeOut,
+            clearProps: "all",
+          });
+        },
+
+        checkHour: function (value, $el_1, $el_2) {
+          var val_1 = value.toString().charAt(0),
+            val_2 = value.toString().charAt(1),
+            fig_1_value = $el_1.find(".top").html(),
+            fig_2_value = $el_2.find(".top").html();
+
+          if (value >= 10) {
+            // Animate only if the figure has changed
+            if (fig_1_value !== val_1) this.animateFigure($el_1, val_1);
+            if (fig_2_value !== val_2) this.animateFigure($el_2, val_2);
+          } else {
+            // If we are under 10, replace first figure with 0
+            if (fig_1_value !== "0") this.animateFigure($el_1, 0);
+            if (fig_2_value !== val_1) this.animateFigure($el_2, val_1);
+          }
+        },
+      };
+
+      // Let's go !
+      Countdown.init();
+    </script>
+  </body>
+</html>

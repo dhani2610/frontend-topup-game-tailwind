@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="__className_b6ea22" lang="id" dir="ltr">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link rel="preload" href="/_next/static/media/3787d9a87cc64466-s.p.ttf" as="font" crossorigin="" type="font/ttf"/>
+        <link rel="stylesheet" href="/_next/static/css/da33c663f9ff153c.css" data-precedence="next"/>
+        <link rel="stylesheet" href="/_next/static/css/fb4ddcf0aedb9282.css" data-precedence="next"/>
+        <style data-precedence="default" data-href="next-transition-bar">
+            #nprogress {
+                pointer-events: none;
+            }
+
+            #nprogress .bar {
+                background: #00bfffff;
+                position: fixed;
+                z-index: 1600;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 3px;
+            }
+
+            #nprogress .peg {
+                display: block;
+                position: absolute;
+                right: 0;
+                width: 100px;
+                height: 100%;
+                box-shadow: 0 0 10px #00bfffff,0 0 5px #00bfffff;
+                opacity: 1;
+                -webkit-transform: rotate(3deg) translate(0px, -4px);
+                -ms-transform: rotate(3deg) translate(0px, -4px);
+                transform: rotate(3deg) translate(0px, -4px);
+            }
+
+            #nprogress .spinner {
+                display: block;
+                position: fixed;
+                z-index: 1600;
+                top: 15px;
+                right: 15px
+            }
+
+            #nprogress .spinner-icon {
+                width: 18px;
+                height: 18px;
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                border-top-color: #00bfffff;
+                border-left-color: #00bfffff;
+                border-radius: 50%;
+                -webkit-animation: nprogress-spinner 400ms linear infinite;
+                animation: nprogress-spinner 400ms linear infinite;
+            }
+
+            .nprogress-custom-parent {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .nprogress-custom-parent #nprogress .bar, .nprogress-custom-parent #nprogress .spinner {
+                position: absolute;
+            }
+
+            @-webkit-keyframes nprogress-spinner {
+                0% {
+                    -webkit-transform: rotate(0deg);
+                }
+
+                100% {
+                    -webkit-transform: rotate(360deg);
+                }
+            }
+
+            @keyframes nprogress-spinner {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-1caa20ea6eb27097.js"/>
+        <script src="/_next/static/chunks/fd9d1056-2eaf7eea967abc1c.js" async=""></script>
+        <script src="/_next/static/chunks/2472-af021cbdecc57e3e.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-25350bd66de405d7.js" async=""></script>
+        <script src="/_next/static/chunks/f97e080b-a04e8f27a7589bbe.js" async=""></script>
+        <script src="/_next/static/chunks/795d4814-37d35e5fd03ec4ac.js" async=""></script>
+        <script src="/_next/static/chunks/0e762574-a256052de9acc773.js" async=""></script>
+        <script src="/_next/static/chunks/53c13509-5ac15a3f909e8103.js" async=""></script>
+        <script src="/_next/static/chunks/8e1d74a4-e59d999e6b45c915.js" async=""></script>
+        <script src="/_next/static/chunks/0dc1bf6b-128dbba84a5fa152.js" async=""></script>
+        <script src="/_next/static/chunks/1396-ac0721f4f5ad1f1e.js" async=""></script>
+        <script src="/_next/static/chunks/413-232987b3cf0a5d56.js" async=""></script>
+        <script src="/_next/static/chunks/1444-e95c1d03fd5f02d8.js" async=""></script>
+        <script src="/_next/static/chunks/5052-c838590f58a8ed56.js" async=""></script>
+        <script src="/_next/static/chunks/7639-c25d6293767adc76.js" async=""></script>
+        <script src="/_next/static/chunks/644-5f2c08b3028dbb1a.js" async=""></script>
+        <script src="/_next/static/chunks/5829-6e77c7912bc52581.js" async=""></script>
+        <script src="/_next/static/chunks/7982-2b0557c509cf4117.js" async=""></script>
+        <script src="/_next/static/chunks/732-048530824cd7cb71.js" async=""></script>
+        <script src="/_next/static/chunks/app/layout-54423582c4a738e7.js" async=""></script>
+        <script src="/_next/static/chunks/app/(product)/layout-3bdf552022a2f64f.js" async=""></script>
+        <script src="/_next/static/chunks/3187-eed97a6203e6eec1.js" async=""></script>
+        <script src="/_next/static/chunks/780-9a3fe7fc4323b044.js" async=""></script>
+        <script src="/_next/static/chunks/app/(page)/pricelist/page-45028bba9fc91180.js" async=""></script>
+        <link rel="preload" href="/_next/static/css/ab4aeb1c1949e481.css" as="style"/>
+        <link rel="preload" href="/_next/static/css/95aec922c31a72d1.css" as="style"/>
+        <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-0QNP42SH27" as="script"/>
+        <title>Price List | Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.</title>
+        <meta name="description" content="Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah."/>
+        <meta name="application-name" content="Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja."/>
+        <link rel="manifest" href="/manifest.webmanifest"/>
+        <meta name="robots" content="noindex, nofollow, nocache"/>
+        <meta name="googlebot" content="noindex, nofollow, noimageindex, max-video-preview:-1, max-image-preview:large, max-snippet:-1"/>
+        <link rel="canonical" href="https://microboystore.com/"/>
+        <meta property="og:title" content="Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja."/>
+        <meta property="og:description" content="Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah."/>
+        <meta property="og:url" content="https://microboystore.com/"/>
+        <meta property="og:site_name" content="Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja."/>
+        <meta property="og:locale" content="id"/>
+        <meta property="og:image" content="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Pubg%20Banner%201-8967.png"/>
+        <meta property="og:image:alt" content="Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja."/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja."/>
+        <meta name="twitter:description" content="Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah."/>
+        <meta name="twitter:image" content="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Pubg%20Banner%201-8967.png"/>
+        <link rel="shortcut icon" href="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png"/>
+        <link rel="icon" href="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png"/>
+        <link rel="apple-touch-icon" href="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png"/>
+        <link rel="apple-touch-icon-precomposed" href="https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png"/>
+        <meta name="next-size-adjust"/>
+        <style>
+            :root {
+                --tw-color-general: #00bfffff;
+                --tw-color-primary: #FFFFFF;
+                --tw-color-primary-foreground: #000000ff;
+                --tw-color-primary-selected-foreground: #FFFFFF;
+                --tw-color-secondary: #FFFFFF;
+                --tw-color-secondary-foreground: #000000ff;
+                --tw-color-auth-background: #FFFFFF;
+                --tw-color-card-background: #FFFFFF;
+                --tw-color-card-foreground: #ffffffff;
+                --tw-color-card-foreground-secondary: #FFFFFF;
+                --tw-color-card-selected: #00bfffff;
+                --tw-color-card-selected-outline: #00bfffff;
+                --tw-color-ribbon-background: #fd0000ff;
+                --tw-color-ribbon-foreground: #FFFFFF;
+                --tw-color-input-background: #ecececff;
+                --tw-color-input-foreground: #000000ff;
+                --tw-color-button: #00bfffff;
+                --tw-color-button-foreground: #FFFFFF;
+                --tw-color-button-promo: #00bfffff;
+                --tw-color-button-promo-foreground: #FFFFFF;
+                --tw-color-productitem-background: #ffffffff;
+                --tw-color-productitem-foreground: #000000ff;
+                --tw-color-productitemvariant-background: #ffffffff;
+                --tw-color-productitemvariant-foreground: #000000ff;
+                --tw-color-paymentcard-background: #6cd4ffff;
+                --tw-color-paymentcard-foreground: #000000ff;
+                --tw-color-navbar-background: #01b5ffa8;
+                --tw-color-navbar-foreground: #FFFFFF;
+                --tw-color-footer-background: #ffffffff;
+                --tw-color-footer-foreground: #000000ff;
+                --tw-color-invoice-background: #FFFFFF;
+                --tw-color-invoice-foreground: #000000ff;
+                --tw-color-followus-background: #00a5ffff;
+                --tw-color-followus-foreground: #ff0000ff;
+                --tw-color-staractive: #cdba00ff;
+                --tw-color-starinactive: #ffe400ff;
+                --tw-color-flashsale-background: #828282ff;
+                --tw-color-flashsale-secondary-background: #828282ff;
+                --tw-color-flashsale-foreground: #ff0000ff;
+                --tw-color-countdown-background: #d1d1d1ff;
+                --tw-color-countdown-foreground: #ff0000ff;
+                --tw-color-banner-foreground: #FFFFFF;
+                --tw-color-bottom-action-background: #01b5ffff;
+                --tw-color-bottom-action-foreground: #ffffffff;
+            }
+
+            .dark {
+                --tw-color-primary: #001b27ff;
+                --tw-color-primary-foreground: #000000ff;
+                --tw-color-primary-selected-foreground: #282828;
+                --tw-color-secondary: #005b77ff;
+                --tw-color-secondary-foreground: #ffffffff;
+                --tw-color-auth-background: #001b27ff;
+                --tw-color-card-background: #ffffff;
+                --tw-color-card-foreground: #ffffffff;
+                --tw-color-card-foreground-secondary: #ffffff;
+                --tw-color-card-selected: #ffffff;
+                --tw-color-card-selected-outline: #ffffff;
+                --tw-color-ribbon-background: #ff0000ff;
+                --tw-color-ribbon-foreground: #ffffffff;
+                --tw-color-input-background: #ecececff;
+                --tw-color-input-foreground: #000000ff;
+                --tw-color-button: #0085c0ff;
+                --tw-color-button-foreground: #e0f5ffff;
+                --tw-color-button-promo: #000000ff;
+                --tw-color-button-promo-foreground: #ffffffff;
+                --tw-color-productitem-background: #ffffff;
+                --tw-color-productitem-foreground: #000000ff;
+                --tw-color-productitemvariant-background: #ffffffff;
+                --tw-color-productitemvariant-foreground: #000000ff;
+                --tw-color-paymentcard-background: #ffffff;
+                --tw-color-paymentcard-foreground: #000000ff;
+                --tw-color-navbar-background: #00d0fbff;
+                --tw-color-navbar-foreground: #ffffffff;
+                --tw-color-footer-background: #060000ff;
+                --tw-color-footer-foreground: #ffffffff;
+                --tw-color-invoice-background: #006189ff;
+                --tw-color-invoice-foreground: #ffffff;
+                --tw-color-followus-background: #12a6f1ff;
+                --tw-color-followus-foreground: #d30881ff;
+                --tw-color-staractive: #ffe200ff;
+                --tw-color-starinactive: #ffee00ff;
+                --tw-color-flashsale-background: #ffffffff;
+                --tw-color-flashsale-secondary-background: #ffffffff;
+                --tw-color-flashsale-foreground: #f10c0cff;
+                --tw-color-countdown-background: #ffffff;
+                --tw-color-countdown-foreground: #ff0000ff;
+                --tw-color-banner-foreground: #ffffff;
+                --tw-color-bottom-action-background: #3f3a54ff;
+                --tw-color-bottom-action-foreground: #feffffff;
+            }
+        </style>
+        <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" noModule=""></script>
+    </head>
+    <body>
+        <div class="sr-only">
+            This site is protected by reCAPTCHA and the Google<a href="https://policies.google.com/privacy">Privacy Policy</a>
+            and<a href="https://policies.google.com/terms">Terms of Service</a>
+            apply.
+        </div>
+        <script src="/_next/static/chunks/webpack-1caa20ea6eb27097.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0]);
+            self.__next_f.push([2, null])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:HL[\"/_next/static/media/3787d9a87cc64466-s.p.ttf\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/ttf\"}]\n2:HL[\"/_next/static/css/da33c663f9ff153c.css\",\"style\"]\n3:HL[\"/_next/static/css/fb4ddcf0aedb9282.css\",\"style\"]\n0:\"$L4\"\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "5:HL[\"/_next/static/css/ab4aeb1c1949e481.css\",\"style\"]\n6:HL[\"/_next/static/css/95aec922c31a72d1.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "7:I[33728,[],\"\"]\n9:I[29928,[],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "4:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/da33c663f9ff153c.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/fb4ddcf0aedb9282.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L7\",null,{\"buildId\":\"KUo0UzK-t-6Hx9efvql4I\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/pricelist\",\"initialTree\":[\"\",{\"children\":[\"(page)\",{\"children\":[\"pricelist\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[false,\"$L8\"],\"globalErrorComponent\":\"$9\",\"children\":[null,\"$La\",null]}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "8:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"Price List | Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah.\"}],[\"$\",\"meta\",\"3\",{\"name\":\"application-name\",\"content\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"link\",\"4\",{\"rel\":\"manifest\",\"href\":\"/manifest.webmanifest\"}],[\"$\",\"meta\",\"5\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1, maximum-scale=1\"}],[\"$\",\"meta\",\"6\",{\"name\":\"robots\",\"content\":\"noindex, nofollow, nocache\"}],[\"$\",\"meta\",\"7\",{\"name\":\"googlebot\",\"content\":\"noindex, nofollow, noimageindex, max-video-preview:-1, max-image-preview:large, max-snippet:-1\"}],[\"$\",\"link\",\"8\",{\"rel\":\"canonical\",\"href\":\"https://microboystore.com/\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:title\",\"content\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:description\",\"content\":\"Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah.\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:url\",\"content\":\"https://microboystore.com/\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:site_name\",\"content\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:locale\",\"content\":\"id\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:image\",\"content\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Pubg%20Banner%201-8967.png\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:image:alt\",\"content\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:title\",\"content\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\"}],[\"$\",\"meta\",\"19\",{\"name\":\"twitter:description\",\"content\":\"Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah.\"}],[\"$\",\"meta\",\"20\",{\"name\":\"twitter:image\",\"content\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Pubg%20Banner%201-8967.png\"}],[\"$\",\"link\",\"21\",{\"rel\":\"shortcut icon\",\"href\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\"}],[\"$\",\"link\",\"22\",{\"rel\":\"icon\",\"href\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\"}],[\"$\",\"link\",\"23\",{\"rel\":\"apple-touch-icon\",\"href\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\"}],[\"$\",\"link\",\"24\",{\"rel\":\"apple-touch-icon-precomposed\",\"href\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\"}],[\"$\",\"meta\",\"25\",{\"name\":\"next-size-adjust\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "b:I[73994,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"5829\",\"static/chunks/5829-6e77c7912bc52581.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"3185\",\"static/chunks/app/layout-54423582c4a738e7.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d:I[88169,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"5829\",\"static/chunks/5829-6e77c7912bc52581.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"3185\",\"static/chunks/app/layout-54423582c4a738e7.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "e:I[90786,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"5829\",\"static/chunks/5829-6e77c7912bc52581.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"3185\",\"static/chunks/app/layout-54423582c4a738e7.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "f:I[91658,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"5829\",\"static/chunks/5829-6e77c7912bc52581.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"3185\",\"static/chunks/app/layout-54423582c4a738e7.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "10:I[91366,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"4720\",\"static/chunks/app/(product)/layout-3bdf552022a2f64f.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "11:I[27386,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"5829\",\"static/chunks/5829-6e77c7912bc52581.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"3185\",\"static/chunks/app/layout-54423582c4a738e7.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "12:I[56954,[],\"\"]\n13:I[7264,[],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "14:I[9593,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"4720\",\"static/chunks/app/(product)/layout-3bdf552022a2f64f.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "16:I[73228,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"3187\",\"static/chunks/3187-eed97a6203e6eec1.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"780\",\"static/chunks/780-9a3fe7fc4323b044.js\",\"4598\",\"static/chunks/app/(page)/pricelist/page-45028bba9fc91180.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "17:I[98806,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"4720\",\"static/chunks/app/(product)/layout-3bdf552022a2f64f.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "18:I[44404,[\"3665\",\"static/chunks/f97e080b-a04e8f27a7589bbe.js\",\"6051\",\"static/chunks/795d4814-37d35e5fd03ec4ac.js\",\"1779\",\"static/chunks/0e762574-a256052de9acc773.js\",\"7240\",\"static/chunks/53c13509-5ac15a3f909e8103.js\",\"7699\",\"static/chunks/8e1d74a4-e59d999e6b45c915.js\",\"9007\",\"static/chunks/0dc1bf6b-128dbba84a5fa152.js\",\"1396\",\"static/chunks/1396-ac0721f4f5ad1f1e.js\",\"413\",\"static/chunks/413-232987b3cf0a5d56.js\",\"1444\",\"static/chunks/1444-e95c1d03fd5f02d8.js\",\"5052\",\"static/chunks/5052-c838590f58a8ed56.js\",\"7639\",\"static/chunks/7639-c25d6293767adc76.js\",\"644\",\"static/chunks/644-5f2c08b3028dbb1a.js\",\"7982\",\"static/chunks/7982-2b0557c509cf4117.js\",\"732\",\"static/chunks/732-048530824cd7cb71.js\",\"4720\",\"static/chunks/app/(product)/layout-3bdf552022a2f64f.js\"],\"\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:T1291,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "\n          :root {\n            --tw-color-general: #00bfffff;\n            --tw-color-primary: #FFFFFF;\n            --tw-color-primary-foreground: #000000ff;\n            --tw-color-primary-selected-foreground: #FFFFFF;\n            --tw-color-secondary: #FFFFFF;\n            --tw-color-secondary-foreground: #000000ff;\n            --tw-color-auth-background: #FFFFFF;\n            --tw-color-card-background: #FFFFFF;\n            --tw-color-card-foreground: #ffffffff;\n            --tw-color-card-foreground-secondary: #FFFFFF;\n            --tw-color-card-selected: #00bfffff;\n            --tw-color-card-selected-outline: #00bfffff;\n            --tw-color-ribbon-background: #fd0000ff;\n            --tw-color-ribbon-foreground: #FFFFFF;\n            --tw-color-input-background: #ecececff;\n            --tw-color-input-foreground: #000000ff;\n            --tw-color-button: #00bfffff;\n            --tw-color-button-foreground: #FFFFFF;\n            --tw-color-button-promo: #00bfffff;\n            --tw-color-button-promo-foreground: #FFFFFF;\n            --tw-color-productitem-background: #ffffffff;\n            --tw-color-productitem-foreground: #000000ff;\n            --tw-color-productitemvariant-background: #ffffffff;\n            --tw-color-productitemvariant-foreground: #000000ff;\n            --tw-color-paymentcard-background: #6cd4ffff;\n            --tw-color-paymentcard-foreground: #000000ff;\n            --tw-color-navbar-background: #01b5ffa8;\n            --tw-color-navbar-foreground: #FFFFFF;\n            --tw-color-footer-background: #ffffffff;\n            --tw-color-footer-foreground: #000000ff;\n            --tw-color-invoice-background: #FFFFFF;\n            --tw-color-invoice-foreground: #000000ff;\n            --tw-color-followus-background: #00a5ffff;\n            --tw-color-followus-foreground: #ff0000ff;\n            --tw-color-staractive: #cdba00ff;\n            --tw-color-starinactive: #ffe400ff;\n            --tw-color-flashsale-background: #828282ff;\n            --tw-color-flashsale-secondary-background: #828282ff;\n            --tw-color-flashsale-foreground: #ff0000ff;\n            --tw-color-countdown-background: #d1d1d1ff;\n            --tw-color-countdown-foreground: #ff0000ff;\n            --tw-color-banner-foreground: #FFFFFF;\n            --tw-color-bottom-action-background: #01b5ffff;\n            --tw-color-bottom-action-foreground: #ffffffff;\n          }\n\n          .dark {\n            --tw-color-primary: #001b27ff;\n            --tw-color-primary-foreground: #000000ff;\n            --tw-color-primary-selected-foreground: #282828;\n            --tw-color-secondary: #005b77ff;\n            --tw-color-secondary-foreground: #ffffffff;\n            --tw-color-auth-background: #001b27ff;\n            --tw-color-card-background: #ffffff;\n            --tw-color-card-foreground: #ffffffff;\n            --tw-color-card-foreground-secondary: #ffffff;\n            --tw-color-card-selected: #ffffff;\n            --tw-color-card-selected-outline: #ffffff;\n            --tw-color-ribbon-background: #ff0000ff;\n            --tw-color-ribbon-foreground: #ffffffff;\n            --tw-color-input-background: #ecececff;\n            --tw-color-input-foreground: #000000ff;\n            --tw-color-button: #0085c0ff;\n            --tw-color-button-foreground: #e0f5ffff;\n            --tw-color-button-promo: #000000ff;\n            --tw-color-button-promo-foreground: #ffffffff;\n            --tw-color-productitem-background: #ffffff;\n            --tw-color-productitem-foreground: #000000ff;\n            --tw-color-productitemvariant-background: #ffffffff;\n            --tw-color-productitemvariant-foreground: #000000ff;\n            --tw-color-paymentcard-background: #ffffff;\n            --tw-color-paymentcard-foreground: #000000ff;\n            --tw-color-navbar-background: #00d0fbff;\n            --tw-color-navbar-foreground: #ffffffff;\n            --tw-color-footer-background: #060000ff;\n            --tw-color-footer-foreground: #ffffffff;\n            --tw-color-invoice-background: #006189ff;\n            --tw-color-invoice-foreground: #ffffff;\n            --tw-color-followus-background: #12a6f1ff;\n            --tw-color-followus-foreground: #d30881ff;\n            --tw-color-staractive: #ffe200ff;\n            --tw-color-starinactive: #ffee00ff;\n            --tw-color-flashsale-background: #ffffffff;\n            --tw-color-flashsale-secondary-background: #ffffffff;\n            --tw-color-flashsale-foreground: #f10c0cff;\n            --tw-color-countdown-background: #ffffff;\n            --tw-color-countdown-foreground: #ff0000ff;\n            --tw-color-banner-foreground: #ffffff;\n            --tw-color-bottom-action-background: #3f3a54ff;\n            --tw-color-bottom-action-foreground: #feffffff;\n          }\n        "])
+        </script>
+        <script>
+            self.__next_f.push([1, "a:[\"$\",\"html\",null,{\"className\":\"__className_b6ea22\",\"lang\":\"id\",\"dir\":\"ltr\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$undefined\",[[\"$\",\"$Lb\",null,{\"strategy\":\"afterInteractive\",\"src\":\"https://www.googletagmanager.com/gtag/js?id=G-0QNP42SH27\"}],[\"$\",\"$Lb\",null,{\"id\":\"gtag\",\"strategy\":\"afterInteractive\",\"dangerouslySetInnerHTML\":{\"__html\":\"\\n                  window.dataLayer = window.dataLayer || [];\\n                  function gtag(){dataLayer.push(arguments);}\\n                  gtag('js', new Date());\\n                  gtag('config', 'G-0QNP42SH27', {\\n                    page_path: window.location.pathname,\\n                  });\\n                \"}}]],\"$undefined\",\"$undefined\",[\"$\",\"style\",null,{\"children\":\"$c\"}]]}],[\"$\",\"body\",null,{\"children\":[[\"$\",\"$Ld\",null,{\"color\":\"#00bfffff\"}],[\"$\",\"$Le\",null,{\"children\":[\"$\",\"$Lf\",null,{\"profileData\":\"$undefined\",\"children\":[\"$\",\"$L10\",null,{\"initialData\":{\"colors\":{\"general\":\"#00bfffff\",\"textDot\":\"#000000\",\"tickColor\":\"#000000\",\"buttonDark\":\"#0085c0ff\",\"textButton\":\"#290202\",\"textInvert\":\"#000000\",\"buttonLight\":\"#00bfffff\",\"primaryDark\":\"#001b27ff\",\"textPrimary\":\"#000000\",\"textTopdown\":\"#000000\",\"generalColor\":\"#00bfff\",\"primaryLight\":\"#FFFFFF\",\"backgroundDot\":\"#ffffff\",\"secondaryDark\":\"#005b77ff\",\"textSecondary\":\"#ff0000\",\"flashSaleColor\":\"#d3d3d3\",\"secondaryLight\":\"#FFFFFF\",\"buttonPromoDark\":\"#000000ff\",\"textBannerTitle\":\"#000000\",\"backgroundButton\":\"#ffffff\",\"buttonPromoLight\":\"#00bfffff\",\"cardSelectedDark\":\"#ffffff\",\"textProductTitle\":\"#ffffff\",\"backgroundPrimary\":\"#ffffff\",\"backgroundTopdown\":\"#00bfff\",\"cardPaymentMethod\":\"#ffffff\",\"cardSelectedLight\":\"#00bfffff\",\"textPaymentMethod\":\"#000000\",\"cardBackgroundDark\":\"#ffffff\",\"cardForegroundDark\":\"#ffffffff\",\"backgroundSecondary\":\"#d3d3d3\",\"cardBackgroundLight\":\"#FFFFFF\",\"cardForegroundLight\":\"#ffffffff\",\"inputBackgroundDark\":\"#ecececff\",\"inputForegroundDark\":\"#000000ff\",\"bannerForegroundDark\":\"#ffffff\",\"buttonForegroundDark\":\"#e0f5ffff\",\"footerBackgroundDark\":\"#060000ff\",\"footerForegroundDark\":\"#ffffffff\",\"inputBackgroundLight\":\"#ecececff\",\"inputForegroundLight\":\"#000000ff\",\"navbarBackgroundDark\":\"#00d0fbff\",\"navbarForegroundDark\":\"#ffffffff\",\"ratingStarActiveDark\":\"#ffe200ff\",\"ribbonBackgroundDark\":\"#ff0000ff\",\"ribbonForegroundDark\":\"#ffffffff\",\"backgroundCardGeneral\":\"#ffffff\",\"backgroundCardPayment\":\"#ffffff\",\"backgroundCardProduct\":\"#ffffff\",\"backgroundDetailOrder\":\"#d3d3d3\",\"bannerForegroundLight\":\"#FFFFFF\",\"buttonForegroundLight\":\"#FFFFFF\",\"footerBackgroundLight\":\"#ffffffff\",\"footerForegroundLight\":\"#000000ff\",\"invoiceBackgroundDark\":\"#006189ff\",\"invoiceForegroundDark\":\"#ffffff\",\"navbarBackgroundLight\":\"#01b5ffa8\",\"navbarForegroundLight\":\"#FFFFFF\",\"primaryForegroundDark\":\"#000000ff\",\"ratingStarActiveLight\":\"#cdba00ff\",\"ribbonBackgroundLight\":\"#fd0000ff\",\"ribbonForegroundLight\":\"#FFFFFF\",\"textBannerDescription\":\"#0c0b0b\",\"followUsBackgroundDark\":\"#12a6f1ff\",\"followUsForegroundDark\":\"#d30881ff\",\"invoiceBackgroundLight\":\"#FFFFFF\",\"invoiceForegroundLight\":\"#000000ff\",\"primaryForegroundLight\":\"#000000ff\",\"ratingStarInactiveDark\":\"#ffee00ff\",\"cardSelectedOutlineDark\":\"#ffffff\",\"countDownBackgroundDark\":\"#ffffff\",\"countDownForegroundDark\":\"#ff0000ff\",\"flashSaleBackgroundDark\":\"#ffffffff\",\"flashSaleForegroundDark\":\"#f10c0cff\",\"followUsBackgroundLight\":\"#00a5ffff\",\"followUsForegroundLight\":\"#ff0000ff\",\"ratingStarInactiveLight\":\"#ffe400ff\",\"secondaryForegroundDark\":\"#ffffffff\",\"selectedCardProductItem\":\"#00bfff\",\"cardSelectedOutlineLight\":\"#00bfffff\",\"countDownBackgroundLight\":\"#d1d1d1ff\",\"countDownForegroundLight\":\"#ff0000ff\",\"flashSaleBackgroundLight\":\"#828282ff\",\"flashSaleForegroundLight\":\"#ff0000ff\",\"secondaryForegroundLight\":\"#000000ff\",\"backgroundCardProductItem\":\"#ffffff\",\"buttonPromoForegroundDark\":\"#ffffffff\",\"paymentCardBackgroundDark\":\"#ffffff\",\"paymentCardForegroundDark\":\"#000000ff\",\"productItemBackgroundDark\":\"#ffffff\",\"productItemForegroundDark\":\"#000000ff\",\"bottomActionBackgroundDark\":\"#3f3a54ff\",\"bottomActionForegroundDark\":\"#feffffff\",\"buttonPromoForegroundLight\":\"#FFFFFF\",\"paymentCardBackgroundLight\":\"#6cd4ffff\",\"paymentCardForegroundLight\":\"#000000ff\",\"productItemBackgroundLight\":\"#ffffffff\",\"productItemForegroundLight\":\"#000000ff\",\"bottomActionBackgroundLight\":\"#01b5ffff\",\"bottomActionForegroundLight\":\"#ffffffff\",\"cardForegroundSecondaryDark\":\"#ffffff\",\"cardForegroundSecondaryLight\":\"#FFFFFF\",\"backgroundCardPaymentCarousel\":\"#ffffff\",\"flashSaleBackgroundSecondaryDark\":\"#ffffffff\",\"productItemVariantBackgroundDark\":\"#ffffffff\",\"productItemVariantForegroundDark\":\"#000000ff\",\"flashSaleBackgroundSecondaryLight\":\"#828282ff\",\"productItemVariantBackgroundLight\":\"#ffffffff\",\"productItemVariantForegroundLight\":\"#000000ff\"},\"contact\":[{\"link\":\"https://api.whatsapp.com/send/?phone=6281228576297\u0026text\u0026type=phone_number\u0026app_absent=0\",\"name\":\"whatsapp\",\"label\":\"Customer Service\"}],\"favicon\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\",\"analytic\":{\"googleAnalytics\":\"G-0QNP42SH27\"},\"siteMeta\":[],\"copyright\":\"© 2021 Microboy Store. All rights reserved\",\"siteTitle\":\"Microboy Store Top Up Game Tercepat dan Aman Hanya dengan Sekali Klik Saja.\",\"isDisabled\":false,\"maintenance\":{\"message\":\"\u003cp style=\\\"text-align:center;\\\" size=\\\"0\\\" _root=\\\"undefined\\\" __ownerid=\\\"undefined\\\" __hash=\\\"undefined\\\" __altered=\\\"false\\\"\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp style=\\\"text-align:center;\\\"\u003e\u003c/p\u003e\u003cp style=\\\"text-align:center;\\\"\u003e\u003cspan style=\\\"font-size:40px\\\"\u003e\u003cspan style=\\\"letter-spacing:4px\\\"\u003e\u003cspan style=\\\"line-height:4\\\"\u003eWebsite di buka kembali tanggal 7 Desember\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e\u003c/p\u003e\",\"isOffline\":false,\"isDisabled\":false},\"socialMedia\":[{\"link\":\"https://www.instagram.com/warung.microboy\",\"name\":\"instagram\"},{\"link\":\"https://vt.tiktok.com/ZSd9ektmt/\",\"name\":\"tiktok\"},{\"link\":\"https://api.whatsapp.com/send/?phone=6281228576297\u0026text\u0026type=phone_number\u0026app_absent=0\",\"name\":\"whatsapp\"}],\"popupLanding\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/4588 (1)-1cd3.png\",\"primaryColor\":\"#01b5ff\",\"logoFooterUrl\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/4588 (1)-1cd3.png\",\"logoHeaderUrl\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/4588 (1)-1cd3.png\",\"siteBannerUrl\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Pubg Banner 1-8967.png\",\"secondaryColor\":\"#4299e1\",\"siteDescription\":\"Nikmati Pengalaman Top Up Game Tercepat, Murah dan Aman dengan Berbagai Metode Pembayaran yang Mudah.\",\"logoFooterUrlDark\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\",\"logoHeaderUrlDark\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/Microboy%20Store%20Fix-64ad-original.png\",\"backgroundPrimaryColor\":\"#F7FAFC\",\"backgroundSecondaryColor\":\"#EDF2F7\"},\"settingBanner\":{\"news\":\"\",\"report\":\"\",\"review\":\"\",\"allGame\":\"\",\"profile\":\"\",\"homepage\":\"\",\"flashSale\":\"\",\"pricelist\":\"\",\"trackOrder\":\"\",\"calculatorPB\":\"\",\"calculatorMLBB\":\"\"},\"walletLogo\":\"https://sin1.contabostorage.com/0a986eb902c4469cb860e43985eb18a1:vocapanel/microboystore/wallet-2210d-original.jpeg\",\"children\":[\"$\",\"$L11\",null,{\"children\":[[\"$\",\"$L12\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$L13\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"childProp\":{\"current\":[null,[\"$\",\"div\",null,{\"className\":\"relative flex h-screen flex-col\",\"children\":[[\"$\",\"$L14\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative flex-1\",\"children\":[\"$\",\"$L12\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(page)\",\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$L13\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"childProp\":{\"current\":[\"$\",\"$L12\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"(page)\",\"children\",\"pricelist\",\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"template\":[\"$\",\"$L13\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$L15\",[\"$\",\"div\",null,{\"className\":\"pricelist\",\"children\":[\"$\",\"$L16\",null,{}]}],null],\"segment\":\"__PAGE__\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/95aec922c31a72d1.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}],\"segment\":\"pricelist\"},\"styles\":[]}]}],[\"$\",\"$L17\",null,{}]]}],null],\"segment\":\"(page)\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ab4aeb1c1949e481.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}],[\"$\",\"$L18\",null,{}]]}]}]}]}],[\"$\",\"div\",null,{\"className\":\"sr-only\",\"children\":[\"This site is protected by reCAPTCHA and the Google\",[\"$\",\"a\",null,{\"href\":\"https://policies.google.com/privacy\",\"children\":\"Privacy Policy\"}],\" and\",[\"$\",\"a\",null,{\"href\":\"https://policies.google.com/terms\",\"children\":\"Terms of Service\"}],\" apply.\"]}],\"$undefined\"]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "15:null\n"])
+        </script>
+    </body>
+</html>
